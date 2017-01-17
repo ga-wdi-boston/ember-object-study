@@ -26,7 +26,7 @@ example [js-template](https://www.github.com/ga-wdi-boston/js-template).
 1.  Install dependencies.
 1.  Create and checkout a new branch, named `response`.
 1.  Follow the directions given in [diagnostic.md](diagnostic.md).
-1.  Before the alotted time is up, push to your fork and issue a pull request.
+1.  Before the allotted time is up, push to your fork and issue a pull request.
 
 Your pull request description should contain a "fist to five" for comfort and
 clarity. Additionally, you should mention the resources you used to help you
