@@ -10,33 +10,43 @@ material. Instead, digest what you've read and repeat it in your own voice.
 
 ## Required Readings
 
--   [Example Reading](https://www.github.com/ga-wdi-boston/example)
--   [Example Reading](https://www.github.com/ga-wdi-boston/example)
--   [Example Reading](https://www.github.com/ga-wdi-boston/example)
+-   [The Object Model](https://guides.emberjs.com/v2.11.0/object-model/) (The sections marked as (optional) are only if you're interested in reading further)
+    - Objects in Ember
+    - Classes and Instances (optional)
+    - Reopening Classes and Instances (optional)
+    - Computed Properties
+    - Computed Properties and Aggregate Data
+    - Observers
+    - Bindings
+    - Enumerables (optional)
 
-## EXAMPLE: Define "single-page application" (SPA)
+## EXAMPLE: Accessing Ember Objects
 
-In your own words, define what a SPA is. In your answer, be sure to cite any
-relevant sources you consulted in your search.
-
-```md
-<!-- your answer here -->
-```
-
-## EXAMPLE: Define "page" as used by non-developers
-
-What do users mean when they say "page"? What did you mean before your started
-your search to define SPAs?
+If `person` is an Ember Object with `firstName` defined as a property, how would you access that property?
 
 ```md
 <!-- your answer here -->
 ```
 
-## EXAMPLE: Define "view" and "view-state"
+## Assigning properties to Ember Objects
 
-Within the context of SPAs, what do developers mean when they say "view"? Since
-view can have many meanings, what do developers mean when they say "view-state"?
-How do front-end "routers" help manage view-state?
+If you wanted to add a property of `height` to our `person` Ember Object how would you access that property?
+
+```md
+<!-- your answer here -->
+```
+
+## Ember.Object.extend
+
+In your own words, what does `Ember.Object.extend({})` do?
+
+```md
+<!-- your answer here -->
+```
+
+## Computed properties
+
+What is an advantage to using computed properties?
 
 ```md
 <!-- your answer here -->
