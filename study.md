@@ -10,7 +10,7 @@ material. Instead, digest what you've read and repeat it in your own voice.
 
 ## Required Readings
 
--   [The Object Model](https://guides.emberjs.com/v2.11.0/object-model/) (The sections marked as (optional) are only if you're interested in reading further)
+-   [The Object Model](https://guides.emberjs.com/v2.11.0/object-model/) (The sections marked as (optional) are just that)
     - Objects in Ember
     - Classes and Instances (optional)
     - Reopening Classes and Instances (optional)
