@@ -25,7 +25,7 @@ material. Instead, digest what you've read and repeat it in your own voice.
 If `person` is an Ember Object with `firstName` defined as a property, how would you access that property?
 
 ```md
-<!-- your answer here -->
+person.get('firstName');
 ```
 
 ## Assigning properties to Ember Objects
@@ -33,7 +33,7 @@ If `person` is an Ember Object with `firstName` defined as a property, how would
 If you wanted to add a property of `height` to our `person` Ember Object how would you access that property?
 
 ```md
-<!-- your answer here -->
+person.get('height');
 ```
 
 ## Ember.Object.extend
@@ -41,7 +41,9 @@ If you wanted to add a property of `height` to our `person` Ember Object how wou
 In your own words, what does `Ember.Object.extend({})` do?
 
 ```md
-<!-- your answer here -->
+It creates a subclass of an Ember object, which is different from a normal
+javascript object because it allows state tracking.  This is necessary for an
+ember app to function properly.
 ```
 
 ## Computed properties
@@ -49,5 +51,8 @@ In your own words, what does `Ember.Object.extend({})` do?
 What is an advantage to using computed properties?
 
 ```md
-<!-- your answer here -->
+It allows code to stay much DRY'er if one property of an object relies on data
+that is in another object.  Instead of forcing the user to input that data
+multiple times, a computed property can take the simplest input and transform it
+into whatever the program needs.
 ```
